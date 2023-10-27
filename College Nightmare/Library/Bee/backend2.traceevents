@@ -1,0 +1,269 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698410912838728, "dur":128, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698410912838893, "dur":34678, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698410912873577, "dur":140, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698410912873756, "dur":328, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698410912874139, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":0, "ts":1698410912874200, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":0, "ts":1698410912874268, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1698410912874378, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1698410912874465, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/level0.resS" }}
+,{ "pid":12345, "tid":0, "ts":1698410912874528, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1698410912874583, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1698410912874651, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1698410912874710, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1698410912874874, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1698410912876307, "dur":121, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698410912877004, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1698410912874118, "dur":5189, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698410912879308, "dur":179596, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698410913058905, "dur":278, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698410913059294, "dur":1855, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698410912875140, "dur":4180, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698410912879326, "dur":1343, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698410912880669, "dur":5774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698410912886443, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1698410912886568, "dur":1177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698410912887764, "dur":322, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":1, "ts":1698410912887752, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1698410912888087, "dur":401, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698410912888495, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1698410912888611, "dur":624, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698410912889250, "dur":922, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698410912890193, "dur":395, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698410912890602, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698410912890697, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698410912890804, "dur":496, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698410912891308, "dur":858, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ivimo\\Downloads\\College Nightmare\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698410912891307, "dur":860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698410912892188, "dur":4673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698410912896940, "dur":3080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698410912900157, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698410912903203, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698410912905404, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698410912907717, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698410912909653, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698410912912382, "dur":6963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698410912919442, "dur":4587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698410912924123, "dur":3447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698410912929223, "dur":11973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698410912941278, "dur":117608, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698410912875125, "dur":4189, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698410912879317, "dur":6948, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698410912887738, "dur":700, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":2, "ts":1698410912888442, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1698410912888588, "dur":6474, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1698410912895064, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1698410912895278, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698410912895560, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ivimo\\Downloads\\College Nightmare\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698410912895622, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ivimo\\Downloads\\College Nightmare\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698410912895805, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerd2025502-inputdata.json" }}
+,{ "pid":12345, "tid":2, "ts":1698410912888441, "dur":7667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1698410912896413, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698410912896469, "dur":67, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698410912896995, "dur":155984, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1698410913057393, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1698410913057392, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1698410913057560, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1698410912875244, "dur":4096, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698410912879343, "dur":1473, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698410912880817, "dur":5451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698410912886303, "dur":635, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698410912889223, "dur":3904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1698410912893131, "dur":235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ivimo\\Downloads\\College Nightmare\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912893130, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912896413, "dur":115, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698410912893387, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912896628, "dur":3599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912900315, "dur":4218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912904628, "dur":2225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912906932, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912909687, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912912234, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912914157, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912915777, "dur":3094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912919021, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912921967, "dur":3805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912926046, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912927684, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912927682, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698410912927804, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698410912927960, "dur":4156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1698410912932217, "dur":4178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1698410912936455, "dur":122441, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698410912875172, "dur":4156, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698410912879805, "dur":914, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698410912879330, "dur":2285, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698410912881615, "dur":4742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698410912886359, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1698410912886629, "dur":564, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698410912887202, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1698410912887334, "dur":404, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698410912887747, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1698410912887923, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698410912888257, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698410912888245, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698410912888375, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698410912888685, "dur":1608, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698410912890332, "dur":485, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698410912890828, "dur":813, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698410912891652, "dur":394, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ivimo\\Downloads\\College Nightmare\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698410912891651, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698410912892065, "dur":3848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698410912895993, "dur":3013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698410912899091, "dur":9408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698410912908647, "dur":75, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698410912909271, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698410912912437, "dur":1169, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698410912913609, "dur":4143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698410912917928, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698410912921347, "dur":7834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698410912929256, "dur":10742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698410912940078, "dur":118821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698410912875218, "dur":4115, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698410912879336, "dur":1278, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698410912880615, "dur":292, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698410912880907, "dur":5389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698410912886333, "dur":219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1698410912886301, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1698410912886554, "dur":647, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698410912887215, "dur":143, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1698410912887213, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1698410912887359, "dur":400, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698410912887759, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1698410912887820, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1698410912888157, "dur":371, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698410912888540, "dur":1900, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698410912890464, "dur":723, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698410912891197, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ivimo\\Downloads\\College Nightmare\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912891195, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912891601, "dur":3358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912895035, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ivimo\\Downloads\\College Nightmare\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912895034, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912898373, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698410912895178, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912898581, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912901288, "dur":3554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912904974, "dur":2330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912907406, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912909496, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912911827, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912915150, "dur":4241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912919482, "dur":3679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912923274, "dur":4500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698410912927916, "dur":29884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698410912957855, "dur":101029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912875263, "dur":4082, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912879347, "dur":1370, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912880717, "dur":5587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912886307, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1698410912886517, "dur":570, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912887097, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1698410912887223, "dur":464, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912887697, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1698410912887829, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912887940, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1698410912887932, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1698410912888065, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912888475, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912888474, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912888585, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912888703, "dur":1538, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912890253, "dur":453, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912890717, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912890813, "dur":741, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912891565, "dur":573, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ivimo\\Downloads\\College Nightmare\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912891563, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912892183, "dur":3350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912898868, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912895610, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912899075, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912902188, "dur":2826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912905102, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912907718, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912909686, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912911899, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912914227, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912915957, "dur":2941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912919065, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912922364, "dur":2829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912925274, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912927482, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698410912928684, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698410912928980, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1698410912931539, "dur":8161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1698410912939763, "dur":119117, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698410912875285, "dur":4123, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698410912879410, "dur":1289, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698410912880700, "dur":5570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698410912886319, "dur":230, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1698410912886293, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1698410912886551, "dur":292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698410912886863, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1698410912886860, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1698410912886968, "dur":755, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698410912887731, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1698410912887904, "dur":323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698410912888234, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1698410912888356, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698410912888505, "dur":1665, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698410912890189, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698410912890480, "dur":581, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698410912891075, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698410912891162, "dur":525, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ivimo\\Downloads\\College Nightmare\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912891161, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912891713, "dur":3901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912895721, "dur":2939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912898744, "dur":2499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912901348, "dur":2740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912904199, "dur":2499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912906806, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912908984, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912910663, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912912490, "dur":1125, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698410912913617, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912915420, "dur":3601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912919179, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912922006, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912924924, "dur":2666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698410912927704, "dur":2479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1698410912930260, "dur":5747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1698410912936094, "dur":4033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1698410912940198, "dur":118681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912875321, "dur":4091, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912879413, "dur":1327, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912880741, "dur":5619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912886371, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1698410912886360, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1698410912886539, "dur":1151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912887705, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1698410912887703, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1698410912887838, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912888022, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1698410912888139, "dur":339, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912888487, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":8, "ts":1698410912888486, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/College Nightmare.exe" }}
+,{ "pid":12345, "tid":8, "ts":1698410912888564, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912888627, "dur":1681, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912890308, "dur":56, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698410912890374, "dur":573, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912890966, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912891077, "dur":241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\ivimo\\Downloads\\College Nightmare\\Library\\PackageCache\\com.unity.visualscripting@1.9.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698410912891075, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles buildOutput/College Nightmare_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698410912891575, "dur":5175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698410912896841, "dur":5806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698410912908742, "dur":78, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912902749, "dur":6148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698410912909317, "dur":595, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912914999, "dur":78, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912909914, "dur":5176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698410912915203, "dur":3872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698410912919201, "dur":2793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698410912922098, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698410912924912, "dur":2478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698410912927487, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698410912928800, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698410912929005, "dur":11235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"buildOutput/College Nightmare_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698410912940313, "dur":118569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698410913063504, "dur":980, "ph":"X", "name": "ProfilerWriteOutput" }
+,
