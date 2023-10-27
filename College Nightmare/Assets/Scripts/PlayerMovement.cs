@@ -16,7 +16,11 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody PlayerBody;
     public float Speed;
     public float Jumpforce;
+    public float JumpCooldown;
+    private float timer;
     private bool estaensalto;
+
+    
     private void Start()
     {
         PlayerBody = GetComponent<Rigidbody>();
@@ -33,20 +37,22 @@ public class PlayerMovement : MonoBehaviour
     private void MovePlayer()
     {
         Vector3 MoveVector = orientation.TransformDirection(PlayerMovementInput);
+        //if(!estaensalto)  SI QUEREMOS QUE NO PUEDA GIRAR MIENTRAS SALTA
         PlayerBody.velocity = new Vector3(MoveVector.x * Speed, PlayerBody.velocity.y, MoveVector.z * Speed);
         if (!estaensalto && PlayerMovementInput.magnitude != 0)
         {
             if (!audioPlayer.isPlaying) audioPlayer.Play();
         }
         else audioPlayer.Pause();
-        if (!estaensalto && Input.GetKeyDown(KeyCode.Space))
+
+        if  (Input.GetKeyDown(KeyCode.Space) && !estaensalto && PlayerBody.velocity.y<=0.01 && PlayerBody.velocity.y>-0.7)     //SEA CERCANO A 0
         {
+            timer=Time.time+JumpCooldown;
             estaensalto = true;
             PlayerBody.AddForce(Vector3.up * Jumpforce, ForceMode.Impulse);
+        } else if(Time.time>=timer){
+                estaensalto = false;
         }
-    }
-    private void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.tag == "Floor") estaensalto = false;
+       // Debug.Log(PlayerBody.velocity.y);
     }
 }
