@@ -102,8 +102,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -111,55 +109,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 1552}
     - Class: 114
-      Script: {instanceID: 1612}
+      Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1700}
+      Script: {instanceID: 1682}
     - Class: 114
-      Script: {instanceID: 1854}
+      Script: {instanceID: 1836}
     - Class: 114
-      Script: {instanceID: 2134}
+      Script: {instanceID: 2116}
     - Class: 114
-      Script: {instanceID: 2194}
+      Script: {instanceID: 2176}
     - Class: 114
-      Script: {instanceID: 2610}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 2652}
+      Script: {instanceID: 2634}
     - Class: 114
-      Script: {instanceID: 2810}
+      Script: {instanceID: 2792}
     - Class: 114
-      Script: {instanceID: 3478}
+      Script: {instanceID: 3460}
     - Class: 114
-      Script: {instanceID: 3494}
+      Script: {instanceID: 3476}
     - Class: 114
-      Script: {instanceID: 3518}
+      Script: {instanceID: 3500}
     - Class: 114
-      Script: {instanceID: 4074}
+      Script: {instanceID: 4056}
     - Class: 114
-      Script: {instanceID: 4322}
+      Script: {instanceID: 4304}
     - Class: 114
-      Script: {instanceID: 4946}
+      Script: {instanceID: 4928}
     - Class: 114
-      Script: {instanceID: 5008}
+      Script: {instanceID: 4990}
     - Class: 114
-      Script: {instanceID: 5134}
+      Script: {instanceID: 5116}
     - Class: 114
-      Script: {instanceID: 5190}
+      Script: {instanceID: 5172}
     - Class: 114
-      Script: {instanceID: 5482}
+      Script: {instanceID: 5464}
     - Class: 114
-      Script: {instanceID: 5698}
+      Script: {instanceID: 5680}
     - Class: 114
-      Script: {instanceID: 6010}
+      Script: {instanceID: 5992}
     - Class: 114
-      Script: {instanceID: 6088}
+      Script: {instanceID: 6070}
     - Class: 114
-      Script: {instanceID: 6260}
+      Script: {instanceID: 6242}
     - Class: 114
-      Script: {instanceID: 6584}
+      Script: {instanceID: 6566}
     - Class: 114
-      Script: {instanceID: 7766}
+      Script: {instanceID: 7748}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1102,5 +1100,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/pepel/OneDrive/Escritorio/2023-24/1erCUATRIMESTRE/Fundamentos
-    de Videojuegos/College Nightmare/buildOutput/College Nightmare.exe
+  playerPath: C:/Users/Sebastian/Desktop/Unity/College Nightmare/buildOutput/College
+    Nightmare.exe

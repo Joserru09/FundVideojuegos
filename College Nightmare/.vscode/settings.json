@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "ETSIINFEscape.sln"
+    "dotnet.defaultSolution": "College Nightmare.sln"
 }
