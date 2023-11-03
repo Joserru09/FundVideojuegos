@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Inventory.linterna
   itemName: Linterna
-  itemIcon: {fileID: 0}
-  itemPrefab: {fileID: 0}
+  itemIcon: {fileID: 21300000, guid: 3da5afcfc7a64874ca5048433fc9abf4, type: 3}
+  itemPrefab: {fileID: 6384818708264584537, guid: 933114208dac24f4ea6b0161632a3d8e, type: 3}

@@ -11,6 +11,10 @@ public class SystemDoor : MonoBehaviour
     public float rotSpeed = 3.0f;  //Velocidad de rotacion
     public GameObject door;
     public InventorySystem inventorySystem;
+    public InputManager hand;
+    public InventoryItemData inventoryItemData;
+    public GameObject TextNecesitoLlave;
+    public GameObject TextQparaAbrir;
 
     // Start is called before the first frame update
     void Start()
@@ -39,16 +43,33 @@ public class SystemDoor : MonoBehaviour
 
     private IEnumerator OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag("Door") && inventorySystem.dameInst().HasItem("Llave"))
-        {
-            if (Input.GetKey("q"))
-            {
-                doorOpen = true;
-                yield return new WaitForSecondsRealtime(3.0f);
-                doorOpen = false;
-            }
+       
+        if (other.gameObject.CompareTag("Door"))
+                TextNecesitoLlave.SetActive(true);
             
+
+             if (other.gameObject.CompareTag("Door") && hand.ultimoItemSeleccionado.itemName.Equals(inventoryItemData.itemName) && inventorySystem.dameInst().HasItem("Llave"))
+            {
+            TextNecesitoLlave.SetActive(false);
+            TextQparaAbrir.SetActive(true);
+                if (Input.GetKey("q"))
+                {
+                    TextQparaAbrir.SetActive(false) ;
+                    doorOpen = true;
+                    yield return new WaitForSecondsRealtime(3.0f);
+                    doorOpen = false;
+                }
+
+            }
+        
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Door"))
+        {
+            TextNecesitoLlave.SetActive(false);
+            TextQparaAbrir.SetActive(false);
+
         }
     }
-  
 }

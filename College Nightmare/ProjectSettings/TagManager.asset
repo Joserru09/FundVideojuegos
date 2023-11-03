@@ -7,7 +7,6 @@ TagManager:
   - Floor
   - Objeto
   - Door
-  - ObjetoLlave
   layers:
   - Default
   - TransparentFX

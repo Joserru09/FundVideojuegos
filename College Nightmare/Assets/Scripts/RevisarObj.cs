@@ -10,14 +10,15 @@ public class RevisarObj : MonoBehaviour
     public GameObject camaraVisual;
     public GameObject objEnEscena;
     public GameObject camaraJuego;
-
+    public GameObject luz;
     public bool activa;
-
+    
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Tab) && activa) {
+        luz.SetActive(true);
+        if (Input.GetKeyDown(KeyCode.Tab) && activa) {
 
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
@@ -26,6 +27,7 @@ public class RevisarObj : MonoBehaviour
             objVisual.SetActive(true);
             camaraVisual.SetActive(true);
             objEnEscena.SetActive(false);
+           
         }
         if (Input.GetKeyDown(KeyCode.Escape ) && activa)
         {

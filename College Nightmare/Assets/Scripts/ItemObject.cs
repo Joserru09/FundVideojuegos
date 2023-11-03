@@ -1,10 +1,11 @@
 
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ItemObject : MonoBehaviour
 {
     public InventoryItemData itemData;
-   
+    public GameObject pickupText;
 
     public void OnHandlePickUp()
     {
@@ -17,13 +18,21 @@ public class ItemObject : MonoBehaviour
         if (other.gameObject.CompareTag("Player") )
         {
             Debug.Log("CONTACTO");
-            if (Input.GetKey("e") )
+            pickupText.SetActive(true);
+            if (Input.GetKey("l") )
             {
-                
+                pickupText.SetActive(false);
                 OnHandlePickUp();
                 
             }
             
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            pickupText.SetActive(false);
         }
     }
 }
