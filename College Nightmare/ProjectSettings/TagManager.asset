@@ -7,11 +7,12 @@ TagManager:
   - Floor
   - Objeto
   - Door
+  - Caja
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - CamaraVerObj
   - Water
   - UI
   - 

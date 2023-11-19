@@ -53,6 +53,6 @@ public class PlayerMovement : MonoBehaviour
         } else if(Time.time>=timer){
                 estaensalto = false;
         }
-        Debug.Log(PlayerBody.velocity.y);
+       // Debug.Log(PlayerBody.velocity.y);
     }
 }

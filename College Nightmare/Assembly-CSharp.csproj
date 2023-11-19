@@ -61,10 +61,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PickObject.cs" />
+    <Compile Include="Assets\Scripts\selectitemUI.cs" />
+    <Compile Include="Assets\Puzle cajas\TileDetector.cs" />
+    <Compile Include="Assets\Scripts\InventorySystem.cs" />
     <Compile Include="Assets\Scripts\PlayerCam.cs" />
+    <Compile Include="Assets\Puzle cajas\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\InventoryItem.cs" />
+    <Compile Include="Assets\Scripts\SeleccionarObjMano.cs" />
     <Compile Include="Assets\Escenario\LowPolyLight\Effect\Bloom.cs" />
+    <Compile Include="Assets\Scripts\MovimientoOBj.cs" />
+    <Compile Include="Assets\Scripts\ItemObject.cs" />
+    <Compile Include="Assets\Puzle cajas\Tile.cs" />
+    <Compile Include="Assets\Scripts\RevisarObj.cs" />
+    <Compile Include="Assets\Scripts\InventoryItemData.cs" />
+    <Compile Include="Assets\Scripts\ItemInteraction.cs" />
     <Compile Include="Assets\Scripts\MoveCamera.cs" />
+    <Compile Include="Assets\Scripts\CogerCajas.cs" />
     <Compile Include="Assets\Scripts\OpenDoor.cs" />
+    <Compile Include="Assets\Puzle cajas\DetectarCaja.cs" />
+    <Compile Include="Assets\Scripts\InventoryUI.cs" />
+    <Compile Include="Assets\Scripts\ItemSlot.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -85,7 +101,6 @@
     <None Include="Assets\Escenario\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Escenario\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Escenario\ADI\Voxel Office Props\Read Me.txt" />
-    <None Include="Assets\Tim&apos;s Assets\Doors\Shader\BloodyDoor.shader" />
     <None Include="Assets\Escenario\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Escenario\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Escenario\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
