@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Puzle cajas/TileMovement.unity
+    guid: 3210ca1013f37b34187313cb32c2b667
   m_configObjects: {}

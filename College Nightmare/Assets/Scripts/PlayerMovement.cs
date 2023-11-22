@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -19,10 +20,14 @@ public class PlayerMovement : MonoBehaviour
     public float JumpCooldown;
     private float timer;
     private bool estaensalto;
+    public GameObject tp;
 
-    
+    public int numOpens = 0;
     private void Start()
     {
+        numOpens = DataContainer.tuParametro;
+        Debug.Log("Valor de DataContainer.tuParametro: " + numOpens);
+        
         PlayerBody = GetComponent<Rigidbody>();
         PlayerBody.freezeRotation = true;
         audioPlayer = GetComponent<AudioSource>();
@@ -31,8 +36,18 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
+        if (numOpens ==2)
+        {
+            this.gameObject.transform.position = tp.gameObject.transform.position;
+            numOpens++;
+        }
         PlayerMovementInput = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
         MovePlayer();
+        if (Input.GetKeyDown(KeyCode.N))
+        {   
+            
+            SceneManager.LoadScene("TileMovement");
+        }
     }
     private void MovePlayer()
     {

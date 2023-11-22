@@ -6,7 +6,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638340389400000000
+      ticks: 638362705280000000
     m_Hash: 4046001618
   m_LockFileStatus:
     m_FilePath: C:/Users/pepel/OneDrive/Escritorio/2023-24/1erCUATRIMESTRE/Fundamentos
@@ -15,7 +15,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638340389400000000
+      ticks: 638362705280000000
     m_Hash: 1230226417
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -2875,6 +2875,7 @@ m_ResolvedPackages:
     - 1.3.7
     - 1.3.8
     - 1.3.9
+    - 1.4.0
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -2890,6 +2891,7 @@ m_ResolvedPackages:
     - 1.3.7
     - 1.3.8
     - 1.3.9
+    - 1.4.0
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
