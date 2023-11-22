@@ -23,22 +23,15 @@ public class DetectarCaja : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-        Debug.Log("Colision con: " + other.tag);
-        if (other.gameObject.CompareTag("Caja") && !brazo.GetComponent<CogerCajas>().cajaCogida())
+        if (other.gameObject.CompareTag("Caja"))
         {
-            Caja = other.gameObject;
             Tile.gameObject.SetActive(false);
         }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        Debug.Log("Saliendo de colision con: " + other.tag);
-        if (other.gameObject.CompareTag("Caja") && brazo.GetComponent<CogerCajas>().cajaCogida())
+        else if (other.gameObject.CompareTag("CajaCogida"))
         {
-            Caja = null;
+            Caja = other.gameObject;
             Tile.gameObject.SetActive(true);
         }
     }

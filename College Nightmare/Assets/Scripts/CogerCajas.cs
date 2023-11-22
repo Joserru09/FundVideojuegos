@@ -19,6 +19,7 @@ public class CogerCajas : MonoBehaviour
 
             if (Input.GetKey("f") && pickedObject != null)
             {
+                pickedObject.tag = "Caja";
                 pickedObject.gameObject.transform.SetParent(null);
                 pickedObject = null;
             }
@@ -35,17 +36,15 @@ public class CogerCajas : MonoBehaviour
         {
             if (Input.GetKey("e") && pickedObject == null)
             {
-                other.gameObject.transform.SetParent(this.gameObject.transform);
-
                 pickedObject = other.gameObject;
+                pickedObject.tag = "CajaCogida";
+                other.gameObject.transform.SetParent(this.gameObject.transform);
             }
         }
     }
 
     public Boolean cajaCogida()
     {
-        return pickedObject != null;
+        return pickedObject != null;    
     }
-
-
 }

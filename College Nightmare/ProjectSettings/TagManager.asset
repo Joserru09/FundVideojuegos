@@ -8,6 +8,8 @@ TagManager:
   - Objeto
   - Door
   - Caja
+  - Brazo
+  - CajaCogida
   layers:
   - Default
   - TransparentFX
