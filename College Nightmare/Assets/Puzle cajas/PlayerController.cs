@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using static CajaDetector;
 
 public class PlayerController : MonoBehaviour
 {
@@ -28,25 +30,30 @@ public class PlayerController : MonoBehaviour
     public GameObject brazo;
     public string mirandoA;
 
+
     void Start()
     {
-        mirandoA ="UP";
+        mirandoA = "UP";
     }
 
     // Update is called once per frame
     void Update()
     {
+
         ReadInput();
         if (moving)
         {
             PerformMovement();
-            
+
         }
         CogerCajas cc = brazo.GetComponent<CogerCajas>();
-        if (rotating && cc.pickedObject==null)
+        if (rotating && cc.pickedObject == null)
         {
             RotateTowardsDirection();
         }
+
+
+
 
 
     }
@@ -55,6 +62,17 @@ public class PlayerController : MonoBehaviour
     {
         CogerCajas cc = brazo.GetComponent<CogerCajas>();
         detectorCajasJugador dCJ = detectorCaja.GetComponent<detectorCajasJugador>();
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
+
+        Vector3 inputDirection = new Vector3(horizontalInput, 0, verticalInput).normalized;
+
+        if (inputDirection != Vector3.zero && cc.pickedObject == null)
+        {
+            movingDirection = inputDirection;
+            rotating = true;
+            mirandoA = GetDirectionFromInput(inputDirection);
+        }
         if (Input.GetKeyDown(KeyCode.A))
         {
             if (cc.pickedObject != null && leftTile != null && leftCaja == null && mirandoA.Equals("LEFT") && dCJ.puedeAndar)
@@ -77,6 +95,7 @@ public class PlayerController : MonoBehaviour
                 dCJ.transform.position = nueva;
 
             }
+
         }
         if (Input.GetKeyDown(KeyCode.D))
         {
@@ -99,6 +118,7 @@ public class PlayerController : MonoBehaviour
                 nueva.x = nueva.x + 2;
                 dCJ.transform.position = nueva;
             }
+
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
@@ -123,6 +143,7 @@ public class PlayerController : MonoBehaviour
 
             }
 
+
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
@@ -145,62 +166,32 @@ public class PlayerController : MonoBehaviour
                 nueva.z = nueva.z - 2;
                 dCJ.transform.position = nueva;
             }
+
+        }
+
+
+    }
+    string GetDirectionFromInput(Vector3 inputDirection)
+    {
+        float angle = Mathf.Atan2(inputDirection.x, inputDirection.z) * Mathf.Rad2Deg;
+
+        if (angle > -45 && angle <= 45)
+        {
+            return "UP";
+        }
+        else if (angle > 45 && angle <= 135)
+        {
+            return "RIGHT";
+        }
+        else if (angle > 135 || angle <= -135)
+        {
+            return "DOWN";
+        }
+        else
+        {
+            return "LEFT";
         }
     }
-    /*
-    void ReadInput() {
-            CogerCajas cc = brazo.GetComponent<CogerCajas>();
-        
-            if (Input.GetKeyDown(KeyCode.A))
-            {   
-                if (cc.pickedObject != null && leftTile != null && leftCaja == null && (mirandoA.Equals("RIGHT")||mirandoA.Equals("LEFT")))
-                {
-                    MoveToPosition(leftTile.GetTilePosition());
-                    mirandoA = "LEFT";
-                }
-                else if(cc.pickedObject == null && leftTile != null && leftCaja == null) { 
-                    MoveToPosition(leftTile.GetTilePosition());
-                    mirandoA = "LEFT";
-                }
-            }
-            if (Input.GetKeyDown(KeyCode.D))
-            {
-                if (cc.pickedObject != null && rightTile != null && rightCaja == null && (mirandoA.Equals("RIGHT") || mirandoA.Equals("LEFT")))
-                {
-                    MoveToPosition(rightTile.GetTilePosition());
-                    mirandoA = "RIGHT";
-                }
-                else if (cc.pickedObject == null && rightTile != null && rightCaja == null) { 
-                    MoveToPosition(rightTile.GetTilePosition());
-                    mirandoA = "RIGHT";
-                }
-        }
-            if (Input.GetKeyDown(KeyCode.W))
-            {
-                if (cc.pickedObject != null && forwardTile != null && forwardCaja == null && (mirandoA.Equals("UP") || mirandoA.Equals("DOWN")))
-                {
-                    MoveToPosition(forwardTile.GetTilePosition());
-                    mirandoA = "UP";
-                }
-                else if (cc.pickedObject == null && forwardTile != null && forwardCaja == null) { 
-                    MoveToPosition(forwardTile.GetTilePosition());
-                    mirandoA = "UP";
-                }
-            }
-            if (Input.GetKeyDown(KeyCode.S))
-            {
-                if (cc.pickedObject != null && backwardTile != null && backwardCaja == null && (mirandoA.Equals("UP") || mirandoA.Equals("DOWN")))
-                {
-                    MoveToPosition(backwardTile.GetTilePosition());
-                    mirandoA = "DOWN";
-                }
-                else if (cc.pickedObject == null && backwardTile != null && backwardCaja == null) { 
-                    MoveToPosition(backwardTile.GetTilePosition());
-                    mirandoA = "DOWN";
-                }
-            }
-    } 
-    */
     void PerformMovement()
     {
         transform.position += movingDirection * speed * Time.deltaTime;
@@ -218,8 +209,8 @@ public class PlayerController : MonoBehaviour
 
     void RotateTowardsDirection()
     {
-        Vector3 newRotation = (Vector3.RotateTowards(playerAvatar.transform.forward, movingDirection, rotationSpeed*Time.deltaTime, 1f));
-        if ((playerAvatar.transform.eulerAngles-newRotation).magnitude<0.2f)
+        Vector3 newRotation = (Vector3.RotateTowards(playerAvatar.transform.forward, movingDirection, rotationSpeed * Time.deltaTime, 1f));
+        if ((playerAvatar.transform.eulerAngles - newRotation).magnitude < 0.2f)
         {
             rotating = false;
             playerAvatar.transform.rotation = Quaternion.LookRotation(movingDirection);
@@ -231,7 +222,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    public void MoveToPosition(Vector3 position)
+    void MoveToPosition(Vector3 position)
     {
         targetPosition = position;
         movingDirection = (position - transform.position);
@@ -282,4 +273,18 @@ public class PlayerController : MonoBehaviour
         backwardCaja = caja;
     }
 
+    public void OnTriggerStay(Collider other)
+    {
+
+        if (other.gameObject.CompareTag("FIN"))
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene("SampleScene");
+            }
+        }
+    }
 }
+
+
+
