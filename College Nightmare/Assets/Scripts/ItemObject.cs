@@ -19,7 +19,7 @@ public class ItemObject : MonoBehaviour
         {
             Debug.Log("CONTACTO");
             pickupText.SetActive(true);
-            if (Input.GetKey("l") )
+            if (Input.GetKey("e") )
             {
                 pickupText.SetActive(false);
                 OnHandlePickUp();

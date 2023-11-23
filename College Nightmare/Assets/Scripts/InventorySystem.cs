@@ -14,10 +14,11 @@ public class InventorySystem : MonoBehaviour
 
     private void Awake()
     {
+        
         inventory = new List<InventoryItem>();
         _itemDictionary = new Dictionary<InventoryItemData, InventoryItem>();
+        
 
-       
         Instance = this;
     }
 

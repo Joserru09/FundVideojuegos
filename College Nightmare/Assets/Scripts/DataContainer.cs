@@ -1,7 +1,8 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public static class DataContainer
+public class DataContainer
 {
     public static int tuParametro = 0;
-
+    
 }

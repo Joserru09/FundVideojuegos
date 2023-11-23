@@ -29,17 +29,22 @@ public class PlayerController : MonoBehaviour
     public float distanceToTarget;
     public GameObject brazo;
     public string mirandoA;
-
+    public Camera camaraCajas;
+    public Canvas canvas;
 
     void Start()
     {
         mirandoA = "UP";
+        //camaraCajas.enabled = false;
+
+
+        camaraCajas.enabled = false;
+        camaraCajas.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-
         ReadInput();
         if (moving)
         {
@@ -51,11 +56,6 @@ public class PlayerController : MonoBehaviour
         {
             RotateTowardsDirection();
         }
-        
-
-
-
-
     }
 
     void ReadInput()
@@ -76,8 +76,6 @@ public class PlayerController : MonoBehaviour
             switch (mirandoA)
             {
                 case "UP":
-                    
-
                     nueva.z = nueva.z + 2;
                     dCJ.transform.position = nueva;
                     break;
@@ -195,9 +193,9 @@ public class PlayerController : MonoBehaviour
             }
 
         }
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) && camaraCajas.enabled==true)
         {
-            SceneManager.LoadScene("TileMovement");
+            //SceneManager.LoadScene("TileMovement");
         }
 
 
@@ -309,11 +307,12 @@ public class PlayerController : MonoBehaviour
 
         if (other.gameObject.CompareTag("FIN"))
         {
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                DataContainer.tuParametro = 2;
-                SceneManager.LoadScene("SampleScene");
-            }
+            //if (Input.GetKeyDown(KeyCode.R))
+            //{
+                canvas.gameObject.SetActive(true);
+                camaraCajas.enabled = false;
+                camaraCajas.gameObject.SetActive(false);
+            //}
         }
     }
 }

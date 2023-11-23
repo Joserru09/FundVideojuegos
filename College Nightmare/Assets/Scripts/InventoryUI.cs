@@ -6,6 +6,7 @@ public class InventoryUI : MonoBehaviour
 {
     public GameObject itemSlotPrefab;
 
+    
     private void Start()
     {
         InventorySystem.Instance.onInventoryChangedEventCallback += OnUpdateInventory;
